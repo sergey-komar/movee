@@ -1,0 +1,233 @@
+@media(max-width:900px){
+    .avto__images img{
+        width: 100%;
+    }
+    .form__title{
+        margin-top: 60px;
+    }
+    .tel__form{
+        display: block;
+        padding-top: 20px;
+    }
+    .button__tel{
+        margin-top: 20px;
+    }
+    .footer__description{
+        padding-top: 20px;
+    }
+    .footer__logo{
+        margin-top: 40px;
+    }
+}
+
+
+@media(max-width:768px){
+    .header__batton{
+        display: block;
+    }
+    .work {
+          margin-top: 55px;
+    }
+    .work__item--number{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .avto__list{
+        column-gap: 3px;
+    }
+    .nav__list-holder{
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        border-bottom: 1px solid #000;
+    }
+    .nav__list-item{
+        padding: 0;
+        display: block;
+        margin-top: 20px;
+        border-bottom: 1px solid #000;
+    }
+    .header__title{
+        font-size: 50px;
+        line-height: 1;
+    }  
+    .price{
+        margin-top: 10px;
+    }
+    .apartment_price{
+        max-width: 220px;
+    }
+    .quantity__apartment{
+        margin-top: 20px;
+        padding: 0 8px;
+    }
+    .price__button{
+        margin-bottom: 0;
+    }
+
+    .avto__description--img{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__title {
+        padding-top: 50px;
+    }
+    .footer__description{
+        flex-direction: column;
+    }
+    .footer__data{
+        text-align: center;
+    }
+    .footer__data p{
+        margin-top: 20px;
+    }
+    .footer__menu{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer__social{
+        margin-top: 30px;
+    }
+    
+    .footer__tel{
+        margin-top: 40px;
+    }
+}
+
+
+@media(max-width:650px){
+    .header__phone{
+        display: none;
+    }
+    
+    .price__button--btn{
+        padding: 14px 35px;
+    }
+    .price__inner{
+        min-width: 180px;
+    }
+    .discription__item{
+        display: none;
+    }
+    .avto__brand a{
+        border: none;
+        width: 100%;
+        margin-left: 12px;
+    }
+    .avto {
+        margin-top: 70px;
+    }
+    .avto__list {
+        margin-top: 20px;
+    }
+    .avto__description--img {
+        margin-top: 20px;
+    }
+    .reviews__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contant__text{
+        margin-top: 15px;
+    }
+    .contant__link{
+        margin-top: 10px;
+    }
+    .contant__title{
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:650px){
+    .header__phone{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:600px){
+    .price__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .apartment_price{
+        max-width: 300px;
+        padding: 0 50px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width:400px){
+    .nav__tel{
+        display: none;
+    }
+    .header__title{
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .header__subtitle{
+        margin-top: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .header__button{
+        text-align: center;
+        margin-top: 260px;
+    }
+    .header{
+        height: 100vh;
+    }
+    .work__items{
+        margin-bottom: 31px;
+    }
+    .work__item{
+        margin-left: 22px;
+    }
+    .work__number{
+        font-size: 70px;
+    }
+    .price__title{
+        font-size: 27px;
+    }
+    .price__subtitle{
+        font-size: 21px;
+    }
+    .avto__title{
+        font-size: 27px;
+    }
+    .avto__subtitle{
+        font-size: 20px;
+    }
+    .avto__list{
+        margin-top: 0;
+    }
+    .reviews__title{
+        padding-top: 20px;
+        font-size: 27px;
+    }
+    .contant__title{
+        font-size: 22px;
+    }
+    .form__title{
+        font-size: 27px;
+    }
+    .tel__form,
+    .name__form{
+        font-size: 16px;
+    }
+    .button__tel{
+        font-size: 16px;
+    }
+}
+
